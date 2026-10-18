@@ -1,6 +1,6 @@
 import http from 'k6/http';
 import { check, sleep } from 'k6';
-import { BASE_URL } from '../data/data';
+import { BASE_URL } from './config.js';
 
 export const options = {
     stages: [
